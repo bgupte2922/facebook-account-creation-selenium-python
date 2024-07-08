@@ -78,7 +78,7 @@ class AccountCreationPage():
         year = Select(self.driver.find_element(By.XPATH, self.birthday_year_dropdown_xpath))
         year.select_by_visible_text("1992")
 
-    def gender_radiobutton_click(self, gender):
+    def gender_radiobutton_click(self):
         self.driver.find_element(By.XPATH, self.gender_radiobutton_xpath).click()
 
     def signUp_button_click(self):
@@ -87,3 +87,4 @@ class AccountCreationPage():
     def invalid_email_message(self):
         message = self.driver.find_element(By.ID, self.error_message_id).text
         return message
+

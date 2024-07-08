@@ -9,7 +9,7 @@ class Locators():
     birthday_month_dropdown_xpath = "//select[@id='month']"
     birthday_day_dropdown_xpath = "//select[@id='day']"
     birthday_year_dropdown_xpath = "//select[@id='year']"
-    gender_radiobutton_xpath = "//span[@data-name='gender_wrapper']//input[@name='sex' and @value='2']"
+    gender_radiobutton_xpath = "//span[@data-name='gender_wrapper']//input[@name='sex' and @value=2]"
     signUp_button_name = "websubmit"
     error_message_id = "reg_error_inner"
 

@@ -42,7 +42,7 @@ class AccountCreationTest(unittest.TestCase):
         time.sleep(2)
         acp.birthday_year_dropdown_click()
         time.sleep(2)
-        acp.gender_radiobutton_click(2)
+        acp.gender_radiobutton_click()
         time.sleep(2)
         acp.emailConfirmation_textbox_sendKeys("lastname.firstname@email.com")
         time.sleep(2)
